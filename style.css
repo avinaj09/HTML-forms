@@ -1,0 +1,26 @@
+form label {
+    display: flex;
+ }
+ .group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 10px;
+ }
+ .item {
+    flex: 1;
+    font-size: 15px;
+ }
+ form input,
+ form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+ }
+ form textarea {
+    height: 120px;
+ }
+ button {
+    background-color: white;
+    border-radius: 3px;
+    border: solid black 1px;
+ }
